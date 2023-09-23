@@ -175,7 +175,7 @@ filter:invert(1);
 
 
 }
-header a .login {
+header .login {
  outline:none;
  cursor:pointer;
  border:2px solid #017143;
@@ -187,15 +187,15 @@ header a .login {
  width:120px;
  height:30px;
  left:0;
- transition:0.5s
- 
+ transition:0.5s;
+ margin-left: 10px;
 
 
 
 
 }
 
-header a .login:hover{
+header .login:hover{
 background-color: white;
 color:#017143;
 
